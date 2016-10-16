@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.F1"
-version="1.0.1"
+version="1.0.15"
 name="Formula One"
 provider-name="TCV12">
 <requires>
@@ -17,7 +17,7 @@ provider-name="TCV12">
 </extension>
 </addon>
 
-    <addon id="repository.F14All" name="F1" version="1.0.1" provider-name="TCV12">
+    <addon id="repository.F14All" name="F1" version="1.0.15" provider-name="TCV12">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
