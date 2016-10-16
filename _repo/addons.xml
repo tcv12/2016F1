@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.F1"
-version="1.0.15"
+version="1.0.2"
 name="Formula One"
 provider-name="TCV12">
 <requires>
@@ -17,19 +17,19 @@ provider-name="TCV12">
 </extension>
 </addon>
 
-    <addon id="repository.F14All" name="F1" version="1.0.15" provider-name="TCV12">
+    <addon id="repository.F14All" name="Formula 1 Streaming Repo" version="1.0.2" provider-name="TCV12">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="F1">
+        <extension point="xbmc.addon.repository" name="Formula 1 Streaming Repo">
             <info compressed="false">https://raw.githubusercontent.com/tcv12/2016F1/master/_repo/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/tcv12/2016F1/master/_repo/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/tcv12/2016F1/master/_repo/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>A short summary of this addon</summary>
-            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <summary>F14All</summary>
+            <description>F14All</description>
             <platform>all</platform>
     </extension>
 </addon>
