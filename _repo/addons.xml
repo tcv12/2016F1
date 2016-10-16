@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.F1"
+version="1.0.1"
+name="Formula One"
+provider-name="TCV12">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">The complete 2016 Formula One season</summary>
+  <description lang="en">Formula Oneis the highest class of single-seat auto racing. Watch as Mercedes battle it out with Red Bull and Ferarri for podium positions.</description>
+  <disclaimer lang="en">All content belongs to the FIA and the FOM</disclaimer>
+</extension>
+</addon>
+
+    <addon id="repository.F14All" name="F1" version="1.0.1" provider-name="TCV12">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="F1">
+            <info compressed="false">https://raw.githubusercontent.com/tcv12/2016F1/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tcv12/2016F1/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tcv12/2016F1/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>A short summary of this addon</summary>
+            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
