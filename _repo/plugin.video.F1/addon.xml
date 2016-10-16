@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.F1"
+version="1.0.15
+name="Formula One"
+provider-name="TCV12">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">The complete 2016 Formula One season</summary>
+  <description lang="en">Formula Oneis the highest class of single-seat auto racing. Watch as Mercedes battle it out with Red Bull and Ferarri for podium positions.</description>
+  <disclaimer lang="en">All content belongs to the FIA and the FOM</disclaimer>
+</extension>
+</addon>
