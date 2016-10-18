@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.F1"
-version="1.0.3"
+version="1.0.4"
 name="Formula One"
 provider-name="TCV12">
 <requires>
